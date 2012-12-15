@@ -1,0 +1,51 @@
+{
+    "main":"public/javascripts/cfapp-ultralink.js",
+    "name":"Ultralink",
+    "description": "Populates your website with ultralinks from ultralink.me",
+    "version": "0.8.28",
+    "category": "contextual search",
+    "account": { "callback_url": "https://ultralink.me/API/0.9/cfapp", "user_fields": ["email"] },
+    "config":
+    {
+        "details":
+        {
+            "Category": "Content Enhancement",
+            "Language": "English",
+            "Price": "Free",
+            "Restrictions": "None",
+        },
+        "assets":
+        {
+            "logos" :
+            {
+                "200px": "./public/images/logo-200.png",
+                "132px": "./public/images/logo-132.png"
+            },
+            
+            "detail_page" : [ "./public/images/example.png" ],
+            "images" : [ "./public/images/counter.png" ]
+        },
+        "interface":
+        [
+            {
+                "type": "string",
+                "name": "Favorite Food",
+                "description": "Please tell us your favorite food.",
+                "id": "food",
+                "domain_request": true
+            },
+            
+            {
+                "id": "lottery",
+                "type": "select",
+                "name": "Do you Lotto?",
+                "description": "Choose whether to buy a ticket",
+                "options":
+                [
+                    { "label": "Yes, buy a ticket!", "value": "true" },
+                    { "label":   "No, I am scared.", "value":     "" }
+                ]
+            }
+        ]
+    }
+}
