@@ -1,9 +1,11 @@
 {
-    "main":"public/javascripts/cfapp-ultralink.js",
     "name":"Ultralink",
     "description": "Populates your website with ultralinks from ultralink.me",
     "version": "0.8.28",
     "contributors": [ { "name" : "Spencer Nielsen", "email" : "spencer@ultralink.me" } ],
+    "repository" : { "type" : "git", "url" : "https://github.com/snielsen/cfapp_ultralink.git" },
+    "main":"public/javascripts/cfapp-ultralink.js",
+    "dependencies" : { },
     "category": "contextual search",
     "account": { "callback_url": "https://ultralink.me/API/0.9/cfapp", "user_fields": ["email"] },
     "config":
