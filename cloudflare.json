@@ -1,11 +1,11 @@
 {
-    "name": "Ultralink App",
+    "name": "Ultralink",
     "description": "Populates your website with ultralinks from ultralink.me",
     "version": "0.8.28",
     "contributors": [ { "name" : "Spencer Nielsen", "email" : "spencer@ultralink.me" } ],
-    "repository" : { "type" : "git", "url" : "https://github.com/snielsen/cfapp_ultralink.git" },
-    "main":"public/javascripts/cfapp-ultralink.js",
-    "dependencies" : { },
+    "repository": { "type" : "git", "url" : "https://github.com/snielsen/cfapp_ultralink.git" },
+    "main": "public/javascripts/cfapp-ultralink.js",
+    "dependencies": { },
     "category": "contextual search",
     "account": { "callback_url": "https://ultralink.me/API/0.9/cfapp", "user_fields": ["email"] },
     "config":
@@ -15,18 +15,18 @@
             "Category": "Content Enhancement",
             "Language": "English",
             "Price": "Free",
-            "Restrictions": "None",
+            "Restrictions": "None"
         },
         "assets":
         {
-            "logos" :
+            "logos":
             {
                 "200px": "./public/images/logo-200.png",
                 "132px": "./public/images/logo-132.png"
             },
             
-            "detail_page" : [ "./public/images/example.png" ],
-            "images" : [ "./public/images/counter.png" ]
+            "detail_page": [ "./public/images/example.png" ],
+            "images": [ "./public/images/counter.png" ]
         },
         "interface":
         [
