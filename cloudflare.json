@@ -1,5 +1,5 @@
 {
-    "name":"Ultralink",
+    "name": "Ultralink App",
     "description": "Populates your website with ultralinks from ultralink.me",
     "version": "0.8.28",
     "contributors": [ { "name" : "Spencer Nielsen", "email" : "spencer@ultralink.me" } ],
