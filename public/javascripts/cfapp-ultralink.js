@@ -1,6 +1,14 @@
-CloudFlare.define("cfapp_ultralink", ["cfapp_ultralink/config", "https://ultralink.me/ultralink.js"], function( config, ultralink )
+CloudFlare.define("cfapp_ultralink", ["cloudflare/dom", "cfapp_ultralink/config", "https://ultralink.me/ultralink.js"], function( dom, config, ultralink )
 {
-    // config.domain_id
+//    var head = document.getElementsByTagName('head', true)[0]
+//        var script = dom.createElement("script");
+//        dom.setAttribute(script, "type", "text/javascript");
+//        dom.setAttribute(script, "src", "https://ultralink.me/ultralink.js");
+//    head.appendChild(script);
+        
+    var arguments = {};
 
-    ultralink.startUltralink();
+    if( config.database != "" ){ arguments['database'] = config.database; }
+
+    window.startUltralink( arguments );
 } );

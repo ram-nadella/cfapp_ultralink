@@ -1,7 +1,7 @@
 {
     "name": "Ultralink",
     "description": "Populates your website with ultralinks from ultralink.me",
-    "version": "0.8.28",
+    "version": "0.8.28.1",
     "contributors": [ { "name" : "Spencer Nielsen", "email" : "spencer@ultralink.me" } ],
     "repository": { "type" : "git", "url" : "https://github.com/snielsen/cfapp_ultralink.git" },
     "main": "public/javascripts/cfapp-ultralink.js",
@@ -12,7 +12,7 @@
     {
         "details":
         {
-            "Category": "Content Enhancement",
+            "Category": "Linking Technology",
             "Language": "English",
             "Price": "Free",
             "Restrictions": "None"
@@ -24,31 +24,15 @@
                 "200px": "./public/images/logo-200.png",
                 "132px": "./public/images/logo-132.png"
             },
-            
-            "detail_page": [ "./public/images/example.png" ],
-            "images": [ "./public/images/counter.png" ]
         },
         "interface":
         [
             {
+                "id": "database",
                 "type": "string",
-                "name": "Favorite Food",
-                "description": "Please tell us your favorite food.",
-                "id": "food",
-                "domain_request": true
+                "name": "ultralink.me Database",
+                "description": "Use this field to use a custom database at ultralink.me (leave blank otherwise).",
             },
-            
-            {
-                "id": "lottery",
-                "type": "select",
-                "name": "Do you Lotto?",
-                "description": "Choose whether to buy a ticket",
-                "options":
-                [
-                    { "label": "Yes, buy a ticket!", "value": "true" },
-                    { "label":   "No, I am scared.", "value":     "" }
-                ]
-            }
         ]
     }
 }

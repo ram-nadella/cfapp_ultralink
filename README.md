@@ -1,4 +1,4 @@
 cfapp_ultralink
 ===============
 
-CloudFlare ultralink.me app
+The CloudFlare Ultralink app automatically populates websites with ultralinks from ultralink.me
