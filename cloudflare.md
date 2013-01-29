@@ -1,10 +1,10 @@
-<p style="line-height:22.00px;font-size:14.00px;">Enhance your website with ultralinks, next-generation linking technology that makes your pages beautiful and high utility. Enabling the Ultralink CloudFlare app will automatically populate your website's content with ultralinks from <a href="https://ultralink.me">ultralink.me</a>. Ultralinks provide your visitors a better web browsing experience and keep them engaged on your pages longer.</p>
+<p style="line-height:22.00px;font-size:14.00px;">Enhance your website with ultralinks, next-generation linking technology that makes your pages beautiful and high utility. Enabling the Ultralink CloudFlare app will automatically populate your website's content with ultralinks from ultralink.me. Ultralinks provide your visitors a better web browsing experience and keep them engaged on your pages longer.</p>
 
 <table width="600" border="0" cellspacing="0" cellpadding="0" style="margin-left: auto; margin-right: auto;">
 <tbody>
     <tr>
         <td width="220" align="left" valign="top" style="padding-bottom: 0px; padding-top: 0px;">
-            <img border="0" src="https://ultralink.me/emailimages/1done.jpg" width="212" height="94" />
+            <img border="0" src="images/apps/ultralink/whatyouwant.png" width="212" height="94" />
         </td>
         <td width="380" align="left" valign="top">
             <span style="line-height:25.00px; font-size:18.00px; font-weight:bold;"> What You Want, When You Want It</span><br>
@@ -14,7 +14,7 @@
     </tbody></table><table width="600" border="0" cellspacing="0" cellpadding="0" style="margin-left: auto; margin-right: auto;">
     <tbody><tr>
         <td width="220" align="left" valign="top" style="padding-bottom: 0px; padding-top: 0px;">
-            <img border="0" src="https://ultralink.me/emailimages/2done.jpg" width="212" height="94" />
+            <img border="0" src="images/apps/ultralink/outofway.png" width="212" height="94" />
         </td>
         <td width="380" align="left" valign="top">
             <span style="line-height:25.00px; font-size:18.00px; font-weight:bold;"> Stays Out Of Your Way</span><br>
@@ -24,7 +24,7 @@
     </tbody></table><table width="600" border="0" cellspacing="0" cellpadding="0" style="margin-left: auto; margin-right: auto;">
     <tbody><tr>
         <td width="220" align="left" valign="top" style="padding-bottom: 0px; padding-top: 0px;">
-            <img border="0" src="https://ultralink.me/emailimages/7done.jpg" width="212" height="94" />
+            <img border="0" src="images/apps/ultralink/dontsearch.png" width="212" height="94" />
         </td>
         <td width="380" align="left" valign="top">
             <span style="line-height:25.00px; font-size:18.00px; font-weight:bold;"> Don't Search</span><br>
@@ -34,4 +34,4 @@
 </tbody>
 </table>
 
-<p style="line-height:22.00px;font-size:14.00px;">Give ultralinks a try and then come visit <a href="https://ultralink.me">ultralink.me</a> where you can join the community and help build the future of the internet!</p>
+<p style="line-height:22.00px;font-size:14.00px;">Give ultralinks a try and then come visit ultralink.me where you can join the community and help build the future of the internet!</p>

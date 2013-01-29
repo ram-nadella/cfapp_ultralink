@@ -1,7 +1,7 @@
 {
     "name": "Ultralink",
     "description": "Enhance your website with ultralinks, next-generation linking technology that makes your pages beautiful and high utility. Ultralinks provide your visitors a better web browsing experience and keep them engaged on your pages longer.",
-    "version": "0.8.28.2",
+    "version": "0.8.29",
     "contributors": [ { "name" : "Spencer Nielsen", "email" : "spencer@ultralink.me" } ],
     "repository": { "type" : "git", "url" : "https://github.com/snielsen/cfapp_ultralink.git" },
     "main": "public/javascripts/cfapp-ultralink.js",
@@ -23,7 +23,197 @@
             {
                 "200px": "./public/images/logo-200.png",
                 "132px": "./public/images/logo-132.png"
-            }
+            },
+            "detail_page":
+            [
+                "./public/images/whatyouwant.png",
+                "./public/images/outofway.png",
+                "./public/images/dontsearch.png"
+            ],
+            "images":
+            [
+                "./public/images/ultralinkImages/addLink16.png",
+                "./public/images/ultralinkImages/addLink32.png",
+                "./public/images/ultralinkImages/addLink64.png",
+                "./public/images/ultralinkImages/addLink128.png",
+
+                "./public/images/ultralinkImages/appandroidLink16.png",
+                "./public/images/ultralinkImages/appandroidLink32.png",
+                "./public/images/ultralinkImages/appandroidLink64.png",
+                "./public/images/ultralinkImages/appandroidLink128.png",
+
+                "./public/images/ultralinkImages/appiosLink16.png",
+                "./public/images/ultralinkImages/appiosLink32.png",
+                "./public/images/ultralinkImages/appiosLink64.png",
+                "./public/images/ultralinkImages/appiosLink128.png",
+
+                "./public/images/ultralinkImages/appmacLink16.png",
+                "./public/images/ultralinkImages/appmacLink32.png",
+                "./public/images/ultralinkImages/appmacLink64.png",
+                "./public/images/ultralinkImages/appmacLink128.png",
+
+                "./public/images/ultralinkImages/appwebosLink16.png",
+                "./public/images/ultralinkImages/appwebosLink32.png",
+                "./public/images/ultralinkImages/appwebosLink64.png",
+                "./public/images/ultralinkImages/appwebosLink128.png",
+
+                "./public/images/ultralinkImages/appwindowsLink16.png",
+                "./public/images/ultralinkImages/appwindowsLink32.png",
+                "./public/images/ultralinkImages/appwindowsLink64.png",
+                "./public/images/ultralinkImages/appwindowsLink128.png",
+
+                "./public/images/ultralinkImages/appwindowsphoneLink16.png",
+                "./public/images/ultralinkImages/appwindowsphoneLink32.png",
+                "./public/images/ultralinkImages/appwindowsphoneLink64.png",
+                "./public/images/ultralinkImages/appwindowsphoneLink128.png",
+
+                "./public/images/ultralinkImages/brokenLink16.png",
+                "./public/images/ultralinkImages/brokenLink32.png",
+                "./public/images/ultralinkImages/brokenLink64.png",
+                "./public/images/ultralinkImages/brokenLink128.png",
+
+                "./public/images/ultralinkImages/buyamazonLink16.png",
+                "./public/images/ultralinkImages/buyamazonLink32.png",
+                "./public/images/ultralinkImages/buyamazonLink64.png",
+                "./public/images/ultralinkImages/buyamazonLink128.png",
+
+                "./public/images/ultralinkImages/buyebayLink16.png",
+                "./public/images/ultralinkImages/buyebayLink32.png",
+                "./public/images/ultralinkImages/buyebayLink64.png",
+                "./public/images/ultralinkImages/buyebayLink128.png",
+
+                "./public/images/ultralinkImages/buyLink16.png",
+                "./public/images/ultralinkImages/buyLink32.png",
+                "./public/images/ultralinkImages/buyLink64.png",
+                "./public/images/ultralinkImages/buyLink128.png",
+
+                "./public/images/ultralinkImages/buylinkshareappleLink16.png",
+                "./public/images/ultralinkImages/buylinkshareappleLink32.png",
+                "./public/images/ultralinkImages/buylinkshareappleLink64.png",
+                "./public/images/ultralinkImages/buylinkshareappleLink128.png",
+
+                "./public/images/ultralinkImages/facebookLink16.png",
+                "./public/images/ultralinkImages/facebookLink32.png",
+                "./public/images/ultralinkImages/facebookLink64.png",
+                "./public/images/ultralinkImages/facebookLink128.png",
+
+                "./public/images/ultralinkImages/freebaseLink16.png",
+                "./public/images/ultralinkImages/freebaseLink32.png",
+                "./public/images/ultralinkImages/freebaseLink64.png",
+                "./public/images/ultralinkImages/freebaseLink128.png",
+
+                "./public/images/ultralinkImages/githubLink16.png",
+                "./public/images/ultralinkImages/githubLink32.png",
+                "./public/images/ultralinkImages/githubLink64.png",
+                "./public/images/ultralinkImages/githubLink128.png",
+
+                "./public/images/ultralinkImages/hrefLink16.png",
+                "./public/images/ultralinkImages/hrefLink32.png",
+                "./public/images/ultralinkImages/hrefLink64.png",
+                "./public/images/ultralinkImages/hrefLink128.png",
+
+                "./public/images/ultralinkImages/httpLink16.png",
+                "./public/images/ultralinkImages/httpLink32.png",
+                "./public/images/ultralinkImages/httpLink64.png",
+                "./public/images/ultralinkImages/httpLink128.png",
+
+                "./public/images/ultralinkImages/imageLink16.png",
+                "./public/images/ultralinkImages/imageLink32.png",
+                "./public/images/ultralinkImages/imageLink64.png",
+                "./public/images/ultralinkImages/imageLink128.png",
+
+                "./public/images/ultralinkImages/imdbLink16.png",
+                "./public/images/ultralinkImages/imdbLink32.png",
+                "./public/images/ultralinkImages/imdbLink64.png",
+                "./public/images/ultralinkImages/imdbLink128.png",
+
+                "./public/images/ultralinkImages/info.png",
+                "./public/images/ultralinkImages/inlineLoading.gif",
+                "./public/images/ultralinkImages/inlineLoadingLight.gif",
+
+                "./public/images/ultralinkImages/linkedinLink16.png",
+                "./public/images/ultralinkImages/linkedinLink32.png",
+                "./public/images/ultralinkImages/linkedinLink64.png",
+                "./public/images/ultralinkImages/linkedinLink128.png",
+
+                "./public/images/ultralinkImages/locale.png",
+
+                "./public/images/ultralinkImages/manpageLink16.png",
+                "./public/images/ultralinkImages/manpageLink32.png",
+                "./public/images/ultralinkImages/manpageLink64.png",
+                "./public/images/ultralinkImages/manpageLink128.png",
+
+                "./public/images/ultralinkImages/mapgoogleLink16.png",
+                "./public/images/ultralinkImages/mapgoogleLink32.png",
+                "./public/images/ultralinkImages/mapgoogleLink64.png",
+                "./public/images/ultralinkImages/mapgoogleLink128.png",
+
+                "./public/images/ultralinkImages/mapLink16.png",
+                "./public/images/ultralinkImages/mapLink32.png",
+                "./public/images/ultralinkImages/mapLink64.png",
+                "./public/images/ultralinkImages/mapLink128.png",
+
+                "./public/images/ultralinkImages/mediawikiLink16.png",
+                "./public/images/ultralinkImages/mediawikiLink32.png",
+                "./public/images/ultralinkImages/mediawikiLink64.png",
+                "./public/images/ultralinkImages/mediawikiLink128.png",
+
+                "./public/images/ultralinkImages/notRelevant16.png",
+                "./public/images/ultralinkImages/notRelevant32.png",
+                "./public/images/ultralinkImages/notRelevant64.png",
+                "./public/images/ultralinkImages/notRelevant128.png",
+
+                "./public/images/ultralinkImages/searchbingLink16.png",
+                "./public/images/ultralinkImages/searchbingLink32.png",
+                "./public/images/ultralinkImages/searchbingLink64.png",
+                "./public/images/ultralinkImages/searchbingLink128.png",
+
+                "./public/images/ultralinkImages/searchgoogleLink16.png",
+                "./public/images/ultralinkImages/searchgoogleLink32.png",
+                "./public/images/ultralinkImages/searchgoogleLink64.png",
+                "./public/images/ultralinkImages/searchgoogleLink128.png",
+
+                "./public/images/ultralinkImages/searchLink16.png",
+                "./public/images/ultralinkImages/searchLink32.png",
+                "./public/images/ultralinkImages/searchLink64.png",
+                "./public/images/ultralinkImages/searchLink128.png",
+
+                "./public/images/ultralinkImages/searchyahooLink16.png",
+                "./public/images/ultralinkImages/searchyahooLink32.png",
+                "./public/images/ultralinkImages/searchyahooLink64.png",
+                "./public/images/ultralinkImages/searchyahooLink128.png",
+
+                "./public/images/ultralinkImages/twitterLink16.png",
+                "./public/images/ultralinkImages/twitterLink32.png",
+                "./public/images/ultralinkImages/twitterLink64.png",
+                "./public/images/ultralinkImages/twitterLink128.png",
+
+                "./public/images/ultralinkImages/ultralinkmeLink16.png",
+                "./public/images/ultralinkImages/ultralinkmeLink32.png",
+                "./public/images/ultralinkImages/ultralinkmeLink64.png",
+                "./public/images/ultralinkImages/ultralinkmeLink128.png",
+
+                "./public/images/ultralinkImages/unknownLink16.png",
+                "./public/images/ultralinkImages/unknownLink32.png",
+                "./public/images/ultralinkImages/unknownLink64.png",
+                "./public/images/ultralinkImages/unknownLink128.png",
+
+                "./public/images/ultralinkImages/videoLink16.png",
+                "./public/images/ultralinkImages/videoLink32.png",
+                "./public/images/ultralinkImages/videoLink64.png",
+                "./public/images/ultralinkImages/videoLink128.png",
+
+                "./public/images/ultralinkImages/videoyoutubeLink16.png",
+                "./public/images/ultralinkImages/videoyoutubeLink32.png",
+                "./public/images/ultralinkImages/videoyoutubeLink64.png",
+                "./public/images/ultralinkImages/videoyoutubeLink128.png",
+
+                "./public/images/ultralinkImages/wikipediaLink16.png",
+                "./public/images/ultralinkImages/wikipediaLink32.png",
+                "./public/images/ultralinkImages/wikipediaLink64.png",
+                "./public/images/ultralinkImages/wikipediaLink128.png"
+
+            ]
         },
         "interface":
         [
