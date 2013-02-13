@@ -1,6 +1,6 @@
 {
     "name": "Ultralink",
-    "description": "Enhance your website with ultralinks, next-generation linking technology that makes your pages beautiful and high utility. Ultralinks provide your visitors a better web browsing experience and keep them engaged on your pages longer.",
+    "description": "Enhance your website with ultralinks",
     "version": "0.8.29",
     "contributors": [ { "name" : "Spencer Nielsen", "email" : "spencer@ultralink.me" } ],
     "repository": { "type" : "git", "url" : "https://github.com/snielsen/cfapp_ultralink.git" },
